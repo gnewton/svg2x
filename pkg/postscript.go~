@@ -1,0 +1,17 @@
+
+package pkg
+
+type Postscript struct{
+	currentx,currenty float
+}
+	MoveTo(x,y float)
+	RMoveTo(dx,dy float)
+	LineTo(x,y float)
+	RLineTo(rx,ry float)
+	HLine(x float)
+	RHLine(dx float)
+	VLine(y float)
+	RVLine(dy float)
+	ClosePath()
+	Fill(string)
+	Stroke(string)

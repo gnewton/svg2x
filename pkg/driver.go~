@@ -1,0 +1,15 @@
+package pkg
+
+
+type Driver interface{
+	MoveTo(x,y float)
+	RMoveTo(dx,dy float)
+	LineTo(x,y float)
+	RLineTo(rx,ry float)
+	HLine(x float)
+	RHLine(x float)
+	
+	
+	
+
+}
