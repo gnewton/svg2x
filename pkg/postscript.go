@@ -6,36 +6,46 @@ type Postscript struct{
 	haveCurrentPoint bool
 }
 
-func MoveTo(x,y float64){
+func (p *Postscript) MoveTo(x,y float64){
 
 }
-func RMoveTo(dx,dy float64){
+
+func (p *Postscript) RMoveTo(dx,dy float64){
 
 }
-func LineTo(x,y float64){
+
+func (p *Postscript) LineTo(x,y float64){
 
 }
-func RLineTo(rx,ry float64){
+
+func (p *Postscript) RLineTo(rx,ry float64){
 
 }
-func HLine(x float64){
+
+func (p *Postscript) HLine(x float64){
 
 }
-func RHLine(dx float64){
+
+func (p *Postscript) RHLine(dx float64){
 
 }
-func VLine(y float64){
+
+func (p *Postscript) VLine(y float64){
 
 }
-func RVLine(dy float64){
+
+func (p *Postscript) RVLine(dy float64){
 
 }
-func ClosePath(){
+
+func (p *Postscript) ClosePath(){
 
 }
-func Fill(string){
+
+func (p *Postscript) Fill(string){
 
 }
-func Stroke(string){
+
+func (p *Postscript) Stroke(string){
 
 }
